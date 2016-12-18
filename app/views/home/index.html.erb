@@ -1,0 +1,32 @@
+<h1>This is the Home index file!</h1>
+
+<!--     <a href="/trips/index">Add Trip!</a>
+ -->
+
+    <a href="/secret/">Add Trip!</a>
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+    <a href="/show/">Show trip details!</a>
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+
+<% @users.each do |user| %>
+
+  Email: <%= user["email"] %>
+
+
+  <br>
+  <br>
+  <a href="/<%= user['id']%>">View User Details</a>
+  <br>
+  <br>
+
+<% end %>

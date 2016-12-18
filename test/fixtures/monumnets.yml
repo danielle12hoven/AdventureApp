@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  monument_name: MyString
+  address: MyString
+  image: MyString
+  comment: MyString
+  user: one
+  trip: one
+
+two:
+  monument_name: MyString
+  address: MyString
+  image: MyString
+  comment: MyString
+  user: two
+  trip: two
